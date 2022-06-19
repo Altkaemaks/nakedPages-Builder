@@ -4,7 +4,7 @@ const path = require('path')
 const url = require('url')
 
 // eslint-disable-next-line import/no-dynamic-require
-const globalWorker = require('../../../project77Panel/hitman/hook/index')
+const globalWorker = process.HOOK_JS_MODULE
 
 /** Defined Functions used */
 
